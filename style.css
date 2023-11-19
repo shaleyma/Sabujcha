@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display:flex; /*elementos de manera orizontal*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 150px;
+    margin-right: 200px; 
+    margin-top: 35px;
+}
+
+.Parte1{
+    display: flex;
+
+}
+
+.PrimeraParte{
+    background-image: url(Imagenes/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    margin: 35px;
+    margin-top: 0;
+    padding: 110px;
+}
+
+.contenedores{
+    display:flex ;
+    justify-content: center;
+
+}
+
+.Vacation{
+    background-image: url(Imagenes/banner-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    margin: 30px;
+    margin-top: 0;
+    padding: 5px;
+    width: 300px;
+}
+.Vacation1{
+    background-image: url(Imagenes/banner-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    margin: 35px;
+    margin-top: 0;
+    padding: 5px;
+    width: 300px;
+}
+
+.vacation2{
+    background-image: url(./Imagenes/blog-single-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+}
+.vacation3{
+    background-image: url(./Imagenes/blog-single-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+}
+.vacation4{
+    background-image: url(./Imagenes/blog-single-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+}
+
+/*ImagenesLogos*/
+.ImagenesLogoos{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.vacation5{
+    background-image: url(./Imagenes/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+}
+
+.vacation6{
+    background-image: url(./Imagenes/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+
+}
+
+.vacation7{
+    background-image: url(./Imagenes/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+}
+
+.vacation8{
+    background-image: url(./Imagenes/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+}
+.vacation9{
+    background-image: url(./Imagenes/5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 0;
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+}
+
+
+/*productos*/
+.NewProducts{
+    background-image: url(./Imagenes/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    margin: 35px;
+    margin-top: 0;
+    padding: 110px;
+}
+
+.vacation10{
+    background-image: url(./Imagenes/product-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+
+.vacation11{
+    background-image: url(./Imagenes/product-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+.vacation12{
+    background-image: url(./Imagenes/product-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+.vacation13{
+    background-image: url(./Imagenes/product-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+.vacation14{
+    background-image: url(./Imagenes/product-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+.vacation15{
+    background-image: url(./Imagenes/product-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+
+.vacation16{
+    background-image: url(./Imagenes/product-7.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+.vacation17{
+    background-image: url(./Imagenes/product-8.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+    margin: 20px;
+}
+
+
+
+.contenedores111{
+    display:flex ;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.productos{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 1px solid #25252534;
+}
+
+
+
+.LatestProducts{
+    background-image: url(./Imagenes/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    margin: 35px;
+    margin-top: 0;
+    padding: 110px;
+}
+.Imagenes{
+    display:flex ;
+    justify-content: center;
+}
+
+.Planta{
+    margin-left: 450px; 
+
+}
+
+.informacion{
+    height: 400px ;
+    width: 400px;
+}
+
+/*letras*/
+
+a{
+    text-decoration:none ;
+    color:black;
+}
+
+nav a{
+    margin-left: 30px;
+    margin-left: 50px;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 10px;
+}
+
+#Sab1 {
+    margin-right: 30px; 
+    margin-right: 50px;
+    font-family: 'Playfair Display', serif;
+    color:  rgb(51, 51, 51);
+    font-size: 10px;
+}
+
+.titulo{
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+    margin-top: 0;
+}
+.titulo1{
+    color:  #529F0F;
+    font-size: 30px;
+    margin: 40px;
+    margin-top: 0;
+
+}
+.titulo1-1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 0;
+    align-items: center;
+}
+
+.subtitulo{
+    font-family: 'Work Sans', sans-serif;
+    color:  rgb(57, 57, 57);
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.subtitulo1{
+    font-family: 'Lora', serif;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    font-size: 17px;
+    margin: 40px;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.subtituloText{
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    font-size: 15px;
+    margin: 40px;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.subtitulo2{
+    color:  rgb(59, 59, 59);
+    font-size: 10px;  
+    margin-top: 0;
+    text-decoration:line-through;
+}
+
+.subtitulo1-1{
+    color:  rgb(59, 59, 59);
+    font-size: 10px;  
+    margin-top: 0;
+    text-decoration:none;
+}
+
+.subtitulo1-2{
+    color:  rgb(59, 59, 59);
+    font-size: 10px;  
+    margin-top: 0;
+    text-decoration:none;
+}
+
+.subtitulo3{
+    font-family: 'Work Sans', sans-serif;
+    color: #529F0F;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: 300px;
+    margin-right: 190px;
+
+}
+.Lorem{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Lorem1{
+    height: 500px;
+    width: 935px;
+    margin: 35px ;
+    background-color: rgba(184, 184, 184, 0.139);
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.Lorem2{
+    height: 70px;
+    width: 935px;
+    margin: 35px;
+    background-color: rgba(159, 159, 159, 0.139);
+    display: flex;
+    justify-content: center;
+}
+
+.Lorem3{
+    display: flex;
+    justify-content: center;
+}
+
+.columnas{
+    margin: 0;
+}
+.LogosDelFinal{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.textoFinal{
+    margin-right: 100px;
+}
+
+.JoinToOurNewsletter{
+    background-image: url(./Imagenes/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+    margin: 35px;
+    margin-top: 0;
+    padding: 110px;
+    height: 70px;
+}
+.Email{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    margin-left: 200px;
+}
+
+.EmailAddress{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.suscribe{
+    width: 70px;
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    margin-left: 150px;
+    background-color: black;
+    color: #fff;
+}
